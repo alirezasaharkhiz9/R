@@ -33,7 +33,3 @@ saveWidget(
   background = "#873e23",
   knitrOptions = list()
 )
-webshot::install_phantomjs()
-webshot("igraph3D.html","igraph.png", delay =5, vwidth = 800, vheight=450)
-webshot("wordcloud.html","jdje.png", delay =5, vwidth = 800, vheight=450)
-webshot("wordcloud.html","fig_1.pdf", delay =5, vwidth = 480, vheight=480)
